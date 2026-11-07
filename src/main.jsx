@@ -1,6 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-createRoot(document.getElementById('root')).render(
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
+import TiendaApp from "./TiendaApp.jsx";
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-  </StrictMode>,
-)
+    <TiendaApp />
+  </StrictMode>
+);
